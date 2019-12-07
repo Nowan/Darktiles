@@ -19,11 +19,10 @@ public class Game : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             
             if (Physics.Raycast(ray, out hit)) {
-                Tile tile = hit.transform.gameObject.GetComponent<Tile>();
-                Cluster cluster = level.GetCluster(tile);
+                Cluster cluster = level.GetCluster(hit.transform.gameObject.GetComponent<Tile>());
                 
                 foreach(List<Tile> wave in cluster.waves) {
-                    foreach (Tile obj in wave) {
+                    foreach (Tile tile in wave) {
                         tile.Swap();
                     }
                 }

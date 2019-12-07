@@ -466,7 +466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380815994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1969925651}
@@ -486,7 +486,7 @@ Transform:
   - {fileID: 61639282}
   - {fileID: 1368823492}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &563275297
 PrefabInstance:
@@ -804,6 +804,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 807527718}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &833506539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833506541}
+  - component: {fileID: 833506540}
+  m_Layer: 0
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &833506540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833506539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34cf6d1d534322f4ba799636b2696886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelContainer: {fileID: 1834585629}
+--- !u!4 &833506541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833506539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &874128604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1291,7 +1335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48e904fc0b785b74cbc2a09c2996b612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelDataJSON: {fileID: 4900000, guid: 77b2e57628bc6a34b9be3d36b59864a9, type: 3}
+  levelDataJSON: {fileID: 4900000, guid: ef5b87f52c7f11e4b8e6e8feb7d6e08d, type: 3}
+  regularTile: {fileID: 4767065217463850685, guid: b98b9899d6b379b459ffe2cf5f7bfd1e,
+    type: 3}
 --- !u!4 &1834585631
 Transform:
   m_ObjectHideFlags: 0
@@ -1300,11 +1346,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834585629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6171792, y: 0.41498026, z: 0.7926015}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1969925650
 PrefabInstance:
