@@ -26,8 +26,6 @@ public class Game : MonoBehaviour
                         tile.Swap();
                     }
                 }
-                //tile.Swap();
-                //Debug.Log(tile);
             }
         }
         

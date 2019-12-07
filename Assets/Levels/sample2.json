@@ -1,0 +1,187 @@
+{
+    "planes": [
+        {
+            "id": 0,
+            "width": 5,
+            "height": 5,
+            "tiles": [
+                
+                {
+                    "id": 0,
+                    "column": 0,
+                    "row": 0,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 1,
+                    "column": 1,
+                    "row": 0,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 2,
+                    "column": 2,
+                    "row": 0,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 3,
+                    "column": 3,
+                    "row": 0,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 3,
+                    "column": 4,
+                    "row": 0,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 4,
+                    "column": 0,
+                    "row": 1,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 5,
+                    "column": 1,
+                    "row": 1,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 7,
+                    "column": 2,
+                    "row": 1,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 6,
+                    "column": 3,
+                    "row": 1,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 7,
+                    "column": 4,
+                    "row": 1,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 8,
+                    "column": 0,
+                    "row": 2,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 9,
+                    "column": 1,
+                    "row": 2,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 11,
+                    "column": 2,
+                    "row": 2,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 10,
+                    "column": 3,
+                    "row": 2,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 11,
+                    "column": 4,
+                    "row": 2,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 4,
+                    "column": 0,
+                    "row": 3,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 5,
+                    "column": 1,
+                    "row": 3,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 7,
+                    "column": 2,
+                    "row": 3,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 6,
+                    "column": 3,
+                    "row": 3,
+                    "type": "REGULAR",
+                    "side": "LIGHT"
+                },
+                {
+                    "id": 7,
+                    "column": 4,
+                    "row": 3,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 12,
+                    "column": 0,
+                    "row": 4,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 13,
+                    "column": 1,
+                    "row": 4,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 14,
+                    "column": 2,
+                    "row": 4,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 15,
+                    "column": 3,
+                    "row": 4,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                },
+                {
+                    "id": 15,
+                    "column": 4,
+                    "row": 4,
+                    "type": "REGULAR",
+                    "side": "DARK"
+                }
+            ]
+        }
+    ]
+}

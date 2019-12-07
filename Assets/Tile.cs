@@ -24,6 +24,7 @@ public class Tile : MonoBehaviour
     }
 
     public void Swap() {
+        this.side = this.side == TileSide.Light ? TileSide.Dark : TileSide.Light;
         this.gameObject.transform.Rotate(new Vector3(0, 0, 180));
     }
 }
