@@ -4,17 +4,9 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    public Side side = Side.Light;
+    public TileSide side = TileSide.Light;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Swap() {
+        this.gameObject.transform.Rotate(new Vector3(0, 0, 180));
     }
 }

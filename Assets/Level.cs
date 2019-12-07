@@ -7,6 +7,7 @@ public class Level : MonoBehaviour
     public TextAsset levelDataJSON;
     public GameObject regularTile;
     private LevelData levelData;
+    
 
     private void Awake() {
         levelData = JsonUtility.FromJson<LevelData>(levelDataJSON.ToString());
