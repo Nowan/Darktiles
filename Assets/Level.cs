@@ -25,7 +25,7 @@ public class Level : MonoBehaviour
         foreach(TileData tileData in planeData.tiles) {
             GameObject obj = UnityEngine.Object.Instantiate(regularTile, this.gameObject.transform);
             Tile tile = obj.GetComponent<Tile>();
-            tile.Init(tileData);
+            //tile.Init(tileData);
             obj.transform.position = new Vector3(tileData.column * 1.05f, 0, tileData.row * 1.05f);
             this.tiles[tileData.row, tileData.column] = tile;
         }
@@ -34,9 +34,10 @@ public class Level : MonoBehaviour
     private List<Tile> GetClusterTiles(Tile initialTile) {
         List<Tile> clusterTiles = new List<Tile>();
         Func<Tile, bool> checkFunc = (tile) => {
-            return tile.side == initialTile.side;
+            //return tile.side == initialTile.side;
+            return false;
         };
-        
+        /*
         List <Vector2Int> checkQueue = new List<Vector2Int>();
         List <Vector2Int> checkedQueue = new List<Vector2Int>();
 
@@ -65,14 +66,14 @@ public class Level : MonoBehaviour
             }
             checkedQueue.Add(point);
             checkQueue.Remove(point);
-        }
+        }*/
 
-        /*
+        
 
-        tiles.AddRange(TraverseVerticalTiles(new Vector2Int(initialTile.column, initialTile.row), checkFunc));
-        tiles.AddRange(TraverseHorizontalTiles(new Vector2Int(initialTile.column, initialTile.row), new Vector2Int(1, 0), checkFunc));
-        tiles.AddRange(TraverseHorizontalTiles(new Vector2Int(initialTile.column, initialTile.row), new Vector2Int(-1, 0), checkFunc));
-        */
+        //clusterTiles.AddRange(TraverseVerticalTiles(new Vector2Int(initialTile.column, initialTile.row), checkFunc));
+        //clusterTiles.AddRange(TraverseHorizontalTiles(new Vector2Int(initialTile.column, initialTile.row), new Vector2Int(1, 0), checkFunc));
+        //clusterTiles.AddRange(TraverseHorizontalTiles(new Vector2Int(initialTile.column, initialTile.row), new Vector2Int(-1, 0), checkFunc));
+        
         return clusterTiles;
     }
 

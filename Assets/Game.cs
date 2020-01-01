@@ -23,7 +23,7 @@ public class Game : MonoBehaviour
                 
                 foreach(List<Tile> wave in cluster.waves) {
                     foreach (Tile tile in wave) {
-                        tile.Swap();
+                        //tile.Swap();
                     }
                 }
             }
